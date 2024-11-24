@@ -9,6 +9,17 @@ public class NumberFeature {
         Scanner in = new Scanner(System.in);
         inputNumber = in.nextInt();
         // 你的代码逻辑
+        while (true) {
+            if (num == -1) {
+                break;
+            }
+            if (num % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+        }
+
 
         result = inputNumber;
 
